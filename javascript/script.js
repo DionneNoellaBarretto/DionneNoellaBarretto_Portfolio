@@ -12,32 +12,31 @@ $(() => {
 
 });
 
-    //Get to the Top button:
-    mybutton = document.getElementById("myBtn");
-    // When the user scrolls down 50px from the top of the document, show the button
-    window.onscroll = function() {
-        scrollFunction()
-    };
-    function scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
+//Get to the Top button:
+mybutton = document.getElementById("myBtn");
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction()
+};
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
     }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 /* Still working on including a timeline for professional experience.. 
 
-    <!-- Include jQuery Timeline Plugin -->
+    <!-- Including jQuery Timeline Plugins -->
     <script src="./javascript/jquery.roadmap.js"></script>
     <script src="./javascript/jquery.waypoints.min.js"></script>
-<!-- inline javascript using jquery for the professional experience section -->
-    <script>
+<!--javascript using jquery for the professional experience section -->
         // jQuery Timeline Plugin
 $(document).ready(function() {
 
@@ -83,4 +82,4 @@ $('#my-timeline').roadmap(events, {
     nextArrow: '<i class="fas fa-chevron-right"></i>'
 });
 });
-    </script> */
+*/
