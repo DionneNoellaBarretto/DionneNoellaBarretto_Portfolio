@@ -45,8 +45,10 @@ Intuitive Project Display Card Layout
 <img src="./supplemental_files/IntuitiveProjectSectionCardLayout.png">
 Clickable Links in Contact Me and Footer Sections
 <img src="./supplemental_files/ClickableLinksinContact+Footersections.png">
- Contact Me Sections
+Contact Me Sections
 <img src="./supplemental_files/ContactMeSection.png">
+Hover over any clickable element (depicted with a mouse pointer) to learn more about the element in question
+<img src="./supplemental_files/Hover.png">
 Tablet Screen View with image highlight border color changing & Skills view appearing column like
 <img src="./supplemental_files/TabletView.png">
 Mobile Screen View
