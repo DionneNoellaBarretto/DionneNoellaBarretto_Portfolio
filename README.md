@@ -60,6 +60,10 @@ Landing Page with intuitive Hover Capabilities that highlights and upon click mo
 <img src="./supplemental_files/LandingPagewithHoverCapabilities.png">
 Intuitive Project Display Card Layout
 <img src="./supplemental_files/IntuitiveProjectSectionCardLayout.png">
+Clickable Links in Contact Me and Footer Sections
+<img src="./supplemental_files/ClickableLinksinContact+Footersections.png">
+ Contact Me Sections
+<img src="./supplemental_files/ContactMeSection.png">
 Tablet Screen View with image highlight border color changing & Skills view appearing column like
 <img src="./supplemental_files/TabletView.png">
 Mobile Screen View

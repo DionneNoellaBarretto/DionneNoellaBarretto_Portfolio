@@ -566,11 +566,6 @@ ul.social-icons li a:hover {
         border-color: yellow;
         flex-direction: column;
    }
-    #brand {
-        padding-left: 30px;
-        float: left;
-        width: 22%;
-    }
     .contact {
         height: 66vw;
     }
@@ -668,23 +663,9 @@ ul.social-icons li a:hover {
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
     }
-
-   
-    #brand {
-        padding-left: 30px;
-        float: left;
-        width: 24%;
-    }
-
 }
 
 @media(max-width:800px) {
-    #brand {
-        padding-left: 10px;
-        float: left;
-        width: 25%;
-    }
-
     .contact {
         height: 74vw;
     }
@@ -710,32 +691,12 @@ ul.social-icons li a:hover {
 
 }
 
-@media(max-width:768px) {
-
-    #brand {
-        padding-left: 10px;
-        float: left;
-        width: 27%;
-    }
-
-}
-
 @media(max-width:736px) {
     .contact {
         height: 124vw;
     }
-
-
 }
 
-@media(max-width:690px) {
-    #brand {
-        padding-left: 10px;
-        float: left;
-        width: 29%;
-    }
-
-}
 
 @media(max-width:667px) {
     h3.tittle-w3 {
@@ -752,28 +713,11 @@ ul.social-icons li a:hover {
     .nav-honey li {
         padding-left: 30px;
     }
-
-
-}
-
-@media(max-width:640px) {
-
-    #brand {
-        padding-left: 10px;
-        float: left;
-        width: 31%;
-    }
-
 }
 
 @media(max-width:600px) {
     h3.tittle-w3 {
         font-size: 2em;
-    }
-    #brand {
-        padding-left: 10px;
-        float: left;
-        width: 33%;
     }
     .contact {
         height: 135vw;
