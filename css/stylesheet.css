@@ -11,7 +11,6 @@ html, body {
     background: #f0f5ff !important;
 }
 
-
 body a {
     text-decoration: none;
     transition: 0.5s all;
@@ -58,7 +57,7 @@ h2,h4 {
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1.3em;
     color: #8c9398;
     line-height: 2em;
     letter-spacing: 1px;
@@ -71,16 +70,8 @@ ul {
 
 /* class and id styling */
 
-header.banner_section {
-    width: 100vw;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
 /*Navigation Styling */
-/* all webkit stylying is from chrome browsers and ms for microsoft ie */
+/* all webkit styling is from chrome browsers and ms for microsoft ie */
 
 nav.main-header {
     width: 100%;
@@ -106,7 +97,7 @@ nav.main-header.navShadow {
      transform: scale(1.2);
    }
 
-#brand,ul.nav-honey {
+ul.nav-honey {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -114,13 +105,6 @@ nav.main-header.navShadow {
     -ms-flex-align: center;
     align-items: center;
 }
-
-#brand {
-    padding-left: 40px;
-    float: left;
-    width: 20%;
-}
-
 
 .nav-honey li {
     margin-left: 20px;
@@ -139,11 +123,9 @@ nav.main-header.navShadow {
     padding: 0.5em;
 }
 
-
 .nav-honey li a.active {
     color: #037ef3;
 }
-
 
 a.btn.work {
     padding: 0.6em 2em;
@@ -158,29 +140,11 @@ a.btn.work {
     color: #037ef3;
 }
 
-a.btn.work:hover,
-a.btn.work.active {
+a.btn.work:hover, a.btn.work.active {
     background: #037ef3;
     color: #fff;
 }
 
-
-@keyframes loading {
-    0% {
-        max-width: 0;
-    }
-}
-
-
-/*--/about--*/
-
-h4.sub-tittle-w3 {
-    font-size: 0.85em;
-    color: #037ef3;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 4px;
-}
 
 h3.tittle-w3 {
     text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
@@ -189,8 +153,7 @@ h3.tittle-w3 {
     font-weight: 700;
 }
 
-/*----*/
-
+/* width of the skills bars */
 h4.progress-tittle-w3 {
     color: #4f4f50;
     font-size: 0.85em;
@@ -204,7 +167,7 @@ h4.progress-tittle-w3 {
     background: #e1e2e2;
 }
 
-/* Scroll to the top / Scroll to the bottom quick links*/
+/* Scroll to the top quick link*/
 #myBtn {
     position: relative;    /* Fixed/sticky position */
     bottom: 0;  /* Place the button at the bottom left of the page */
@@ -221,40 +184,6 @@ h4.progress-tittle-w3 {
     background-color:#037ef3;
     color: #fff;
   }
-
-.presentations {
-    background: url(./supplemental_files//serve.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    padding: 4em 0;
-}
-
-/*--/tabs --*/
-
-.nav-pills .nav-link {
-    padding: 0.7em 2em;
-    letter-spacing: 1px;
-    color: #007bff;
-    background-color: #fff;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    margin: 0 0.5em;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -o-border-radius: 25px;
-    -ms-border-radius: 25px;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-    color: #fff;
-    background: #007bff;
-}
 
 
 /*-- gallery --*/
@@ -485,10 +414,6 @@ p.sub {
 }
 
 
-.ad-inf-sec {
-    padding: 4em 0;
-}
-
 #textarea{
     resize:both;
     color: #000;
@@ -497,8 +422,6 @@ p.sub {
 input{
     color: #000;
 }
-
-/*-- //contact--*/
 
 
 /*--responsive Ui for different screens--*/
@@ -537,6 +460,10 @@ input{
         padding: .9em 0.9em;
         margin: 1.3em 0;
         min-height: 140px;
+    }
+    nav.btn{
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
@@ -651,9 +578,7 @@ ul.social-icons li a:hover {
 
 @media(max-width:1024px) {
 
-    .nav-honey {
-        display: block;
-    }
+
     .nav-honey li {
         margin-left: 8px;
         list-style: none;
@@ -672,9 +597,7 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:991px) {
-    .nav-honey {
-        display: block;
-    }
+
     h4.progress-tittle-w3 {
         font-size: 0.8em;
         margin-bottom: 0;
@@ -704,9 +627,7 @@ ul.social-icons li a:hover {
 
 @media screen and (max-width:900px) {
     /**nav**/
-    .nav-honey {
-        display: block;
-    }
+
     nav.main-header {
         height: 75px;
     }
@@ -763,9 +684,7 @@ ul.social-icons li a:hover {
         float: left;
         width: 25%;
     }
-    .nav-honey {
-        display: block;
-    }
+
     .contact {
         height: 74vw;
     }
@@ -792,9 +711,7 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:768px) {
-    .nav-honey {
-        display: block;
-    }
+
     #brand {
         padding-left: 10px;
         float: left;
@@ -807,9 +724,7 @@ ul.social-icons li a:hover {
     .contact {
         height: 124vw;
     }
-    .nav-honey {
-        display: block;
-    }
+
 
 }
 
@@ -819,9 +734,7 @@ ul.social-icons li a:hover {
         float: left;
         width: 29%;
     }
-    .nav-honey {
-        display: block;
-    }
+
 }
 
 @media(max-width:667px) {
@@ -835,23 +748,15 @@ ul.social-icons li a:hover {
     .proj_gallery_grid1_pos {
         bottom: 64px;
     }
-    .nav-pills .nav-link {
-        padding: 0.6em 1.5em;
-        font-size: 0.85em;
-    }
+
     .nav-honey li {
         padding-left: 30px;
     }
-    .nav-honey {
-        display: block;
-    }
+
 
 }
 
 @media(max-width:640px) {
-    .nav-honey {
-        display: block;
-    }
 
     #brand {
         padding-left: 10px;
@@ -878,9 +783,6 @@ ul.social-icons li a:hover {
     }
     .nav-honey li {
         padding-left: 20px;
-    }
-    .nav-honey {
-        display: block;
     }
 
 }
