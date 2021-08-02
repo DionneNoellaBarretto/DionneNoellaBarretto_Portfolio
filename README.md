@@ -31,29 +31,12 @@ Previous Work in Progress Solution: 🗂️ [Github Repository](https://github.c
 
 This homework is graded based on the following criteria: 
 
-#### Technical Acceptance Criteria: 40%
-Satisfies all of the preceding acceptance criteria
-
-#### Deployment: 32%
-```
-✅ Application deployed at live URL
-✅ Application loads with no errors
-✅ Application GitHub URL submitted
-✅ GitHub repository contains application code
-```
-#### Application Quality: 15%
-```
-✅ Application resembles mock-up provided in the homework instructions 
-```
-
-#### Repository Quality: 13%
-```
-✅ Repository has a unique name
-✅ Repository follows best practices for file structure and naming conventions
-✅ Repository follows best practices for class/id naming conventions, indentation, quality comments, etc
-✅ Repository contains multiple descriptive commit messages
-✅ Repository contains quality README file with description, screenshot, and link to deployed application
-```
+| Requirement      | Weight |
+| ---------------- | ------ |
+| Portfolio        | 40%    |
+| GitHub Profile   | 40%    |
+| Resume           | 10%    |
+| LinkedIn Profile | 10%    |
 
 ### Mockup - Desktop, Tablet & Mobile Views
 Landing Page with intuitive Hover Capabilities that highlights and upon click moves to that section
