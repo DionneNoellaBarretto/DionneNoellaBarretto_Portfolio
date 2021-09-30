@@ -361,15 +361,17 @@
                         <div class="row contact_left_grid">
                             <div class="col-md-6 con-left">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" name="name" placeholder="Name" required="" title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
+                                    <input class="form-control" type="text" name="name" placeholder="Please enter Your Name here" required pattern="[A-Za-z]{3,}" title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
                                 </div>
                                 <br/>
                                 <div class="form-group">
-                                    <input class="form-control" type="email" name="email" placeholder="Your email address" required="" title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
+                                    <input class="form-control" type="email" name="email" placeholder="Enter Your email address here" 
+                                    pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$" required title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
                                 </div>
                                 <br/>
                                 <div class="form-group">
-                                    <input class="form-control" type="text" name="Subject" placeholder="Type your message Subject here" required="" title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
+                                    <input class="form-control" type="text" name="Subject" placeholder="Type your message Subject here" pattern="[A-Za-z0-9]{3,}
+                            " required title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
                                 </div>
                                 <br/>
                             </div>
