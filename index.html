@@ -3,162 +3,230 @@
 <!-- Per https://www.w3.org/International/tutorials/language-decl/ its good practice to set language to en upfront -->
 <html lang="en">
 
-<head> <!-- Website metadata declaration -->
+<head>
+    <!-- Website metadata declaration -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- linking relationship with stylesheet -->
+    <!-- linking relationship with stylesheet -->
     <link rel="stylesheet" href="./css/stylesheet.css">
-<!-- referencing external stylesheet for custom icons -->
+    <!-- referencing external stylesheet for custom icons -->
     <link rel="stylesheet" href="./css/fontawesome-free-5.15.3-web/css/all.css">
-<!-- Link to Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<!-- referencing external stylesheet for custom google font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- Link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- referencing external stylesheet for custom google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
-<!-- link to favicon -->
-    <link href="./supplemental_files/dnb.jpg" rel= "icon">
+    <!-- link to favicon -->
+    <link href="./supplemental_files/dnb.jpg" rel="icon">
     <title>DNB Portfolio</title>
 </head>
+
 <body>
-      <!-- ======= Mobile nav toggle button =======
+    <!-- ======= Mobile nav toggle button =======
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button> -->
 
     <!-- Header Section -->
     <header id="home">
         <!-- nav menu -->
         <nav class="main-header d-flex mb-lg-5 mb-3 nav-menu">
-                <ul class="d-flex nav navbar-nav w-100 justify-content-between pt-lg-3 nav-honey">
-                    <li><a class="btn work" href="index.html">Home</a></li>
-                    <li><a class="btn work" href="#about">About Me</a></li>
-                    <li><a class="btn work" href="#presentations" title="Click to view my Presentations">Presentations</a></li>
-                    <!-- <li><a class="btn work" href="#background">Background</a></li> -->
-                    <li><a class="btn work" href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing" title="Click to Download" target="_blank">Resume</a></li>
-                    <!-- <li><a class="btn work" href="#experience">Experience</a></li> this will be added later -->
-                    <li><a class="btn work" href="#projects" title="Click to view my Projects">Projects</a></li>
-                    <li><a class="btn work" href="https://www.credly.com/users/dionne-noella-barretto/badges" target="_blank">Certification(s)</a></li>
-                    <li><a class="btn work" href="#contact">Contact</a></li>
-                </ul>
+            <ul class="d-flex nav navbar-nav w-100 justify-content-between pt-lg-3 nav-honey">
+                <li><a class="btn work" href="index.html">Home</a></li>
+                <li><a class="btn work" href="#about">About Me</a></li>
+                <li><a class="btn work" href="#presentations" title="Click to view my Presentations">Presentations</a>
+                </li>
+                <!-- <li><a class="btn work" href="#background">Background</a></li> -->
+                <li><a class="btn work"
+                        href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
+                        title="Click to Download" target="_blank">Resume</a></li>
+                <!-- <li><a class="btn work" href="#experience">Experience</a></li> this will be added later -->
+                <li><a class="btn work" href="#projects" title="Click to view my Projects">Projects</a></li>
+                <li><a class="btn work" href="https://www.credly.com/users/dionne-noella-barretto/badges"
+                        target="_blank">Certification(s)</a></li>
+                <li><a class="btn work" href="#contact">Contact</a></li>
+            </ul>
         </nav>
+        <br />
     </header>
-<!-- <main> still working on adding typescript like capabilities using aos.js to change the text portion of  "Frontend Web Development with other areas I like working on.."
+    <!-- <main> still working on adding typescript like capabilities using aos.js to change the text portion of  "Frontend Web Development with other areas I like working on.."
     <h2> Thanks to UNC Coding Boot Camp!</h2><a href="https://bootcamp.unc.edu/coding/" title="Click to Learn More" target="_blank"></a>
         <h4 data-text="fewd">I &#128150; Frontend Web Development!</h4>
 </main> -->
-<br/>
-    <section class="banner-bottom-wthree py-lg-5 py-md-5 py-4" id="about">
-        <div class="container">
-            <div class="inner-sec-w3ls py-lg-5 py-4">
-                <div class="info-about text-center">
-                    <!-- need to further refine the skills section to have dropdowns -->
-                    <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3">Skills</h3>
-                    <div class="row mt-lg-5 mt-3">
-                        <div class="col-lg-4 progress-info-content text-left">
-                        
-                            <div class="progress-one" data-aos="fade-up">
-                                <h5 class="progress-tittle-w3"> Customer Experience 
-                                </h5>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" title="100% Proficiency on a scale of 100"></div>
+    <br />
+    <br />
+    <section>
+        <div class="grid-container">
+            <div class="grid-child">
+                <div class="inner-sec-w3ls py-lg-5 py-4 ">
+                    <div class="info-about text-center ">
+                        <!-- need to further refine the skills section to have dropdowns -->
+                        <h3 class="tittle-w3 text-uppercase mb-lg-1 mb-3">Skills</h3>
+                        <div class="row mt-lg-3 mt-2 justify-content-center">
+                            <div class="col-lg-9 progress-info-content text-center">
+                                <div class="progress-one" data-aos="fade-up">
+                                    <h5 class="progress-tittle-w3"> Customer Experience
+                                    </h5>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                                            style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                            aria-valuemax="100" title="100% Proficiency on a scale of 100"></div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="progress-one my-lg-5" data-aos="fade-up">
-                                <h5 class="progress-tittle-w3">Leadership</h5>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar" style="width: 99%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" title="99% Proficiency on a scale of 100"></div>
+                                <div class="progress-one " data-aos="fade-up">
+                                    <h5 class="progress-tittle-w3">Leadership</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar"
+                                            style="width: 99%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                            title="99% Proficiency on a scale of 100"></div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="progress-one" data-aos="fade-up">
-                                <h5 class="progress-tittle-w3">Project & Program Management</h5>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 97%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" title="97% Proficiency on a scale of 100"></div>
+                                <div class="progress-one" data-aos="fade-up">
+                                    <h5 class="progress-tittle-w3">Project & Program Management</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                            style="width: 97%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                            title="97% Proficiency on a scale of 100"></div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="progress-one" data-aos="fade-up">
-                                <h5 class="progress-tittle-w3">VMware Technologies</h5>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width:90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" title="90% Proficiency on a scale of 100"></div>
+                                <div class="progress-one" data-aos="fade-up">
+                                    <h5 class="progress-tittle-w3">VMware Technologies</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                            style="width:90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                            title="90% Proficiency on a scale of 100"></div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="progress-one my-lg-5" data-aos="fade-up">
-                                <h5 class="progress-tittle-w3">Cloud Platforms</h5>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" title="80% Proficiency on a scale of 100"></div>
+                                <div class="progress-one" data-aos="fade-up">
+                                    <h5 class="progress-tittle-w3">Cloud Platforms</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                            style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                                            title="80% Proficiency on a scale of 100"></div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="progress-one my-lg-5" data-aos="fade-up">
-                                <h5 class="progress-tittle-w3">Web Development</h5>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" title="70% Proficiency on a scale of 100"></div>
+                                <div class="progress-one" data-aos="fade-up">
+                                    <h5 class="progress-tittle-w3">Web Development</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" role="progressbar"
+                                            style="width:70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"
+                                            title="70% Proficiency on a scale of 100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <br/>
-                    <br/>
-                    <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3">About Me</h3>
-                    <figure>
-                        <br/>
-                        <img class="me" src="./supplemental_files/dnb.jpg" alt="Dionne Noella Barretto">
+                </div>
 
-                        <div class="social-links mt-5 text-center">
-                            <a href="https://www.codecademy.com/profiles/DenverDionne" target="_blank" title= "Click to view my Codecademy Profile">
-                                <i class="iconify" data-icon="simple-icons:codecademy" data-inline="false"></i>
-                            </a>
-                            <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d" target="_blank" title= "Click to view my Qwiklabs Profile">
+                <div class="social-content pb-md-0 pb-4 ">
+                    <ul class="social-icons justify-content-center text-center d-flex">
+                        <li class="ml-lg-5">
+                            <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d"
+                                target="_blank" title="Click to view my Qwiklabs Profile">
                                 <i class="iconify" data-icon="simple-icons:qwiklabs" data-inline="false"></i>
                             </a>
-                            <a href="https://www.freecodecamp.org/dionnenoellabarretto" target="_blank" title="Click to view my FreeCodeCamp Profile" ><i class="fab fa-free-code-camp"></i></a>
-                            <a href="https://github.com/DionneNoellaBarretto" target="_blank" title="Click to view my Github Profile"><i class="fab fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank" title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                          </div>
-                    </figure>
-                    <p> I am Dionne Noella a learning enthusiast and an aspiring <strong>Web Developer </strong>, currently employed at
-                        <a href="https://g.co/kgs/t8KRK8" target="_blank"><img title="Click to learn more about Google" class="google brightness" src="./supplemental_files/Google.gif" alt="Google Logo" /></a> as a Senior Solutions Consultant (TAM) in the Google Cloud division. Previously I was at
-                        <a href="https://www.rubrik.com/" target="blank"><img title="Click to learn more about Rubrik" class="rubrik brightness" src="./supplemental_files/Rubrik_Logo.svg" alt="Rubrik Image"></a>, serving in the capacity of a Customer Experience Manager for the largest enterprise and strategic accounts in the data management domain and previous to that was with <span title="For more information about VMware, click this link"><strong class="link"><a href="https://www.vmware.com/" target="_blank">VMware</a></strong></span>, where I worked as a Horizon Cloud Escalation Manager in the space of Desktop and Application as a Service.
-                        <br>
-                        <br> My 7+ years of experience in the domain of customer experience and service management positions me to provide unique perspectives on how end users interact with websites, software  and platforms. Passionate about cloud technology and responsive web development by creating meaningful web applications that will set the foundations for using “Technology for Good” (social causes)! I’m experienced in testing, troubleshooting,consulting and architecting solutions for cloud technologies which form the basis for web application deployments as a hosting platform for enterprises-an area I am keen to work in to bridge the 2 worlds.
-                    </p>
-                    <br/><br/>
+                        </li>
+                        <li class="ml-lg-5">
+                            <a href="https://www.codecademy.com/profiles/DenverDionne" target="_blank"
+                                title="Click to view my Codecademy Profile">
+                                <i class="iconify" data-icon="simple-icons:codecademy" data-inline="false"></i>
+                            </a>
+                        </li>
+                        <li class="ml-lg-5">
+                            <a href="https://www.freecodecamp.org/dionnenoellabarretto" target="_blank"
+                                title="Click to view my FreeCodeCamp Profile"><i class="fab fa-free-code-camp"></i></a>
+                        </li>
+                        <li class="ml-lg-5">
+                            <a href="https://github.com/DionneNoellaBarretto" target="_blank"
+                                title="Click to view my Github Profile"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li class="ml-lg-5">
+                            <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank"
+                                title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-child " id="about">
+                <div class="green inner-sec-w3ls py-lg-5 py-4 ">
+                    <div class="info-about text-center ">
+                        <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3">About Me
+                            <figure>
+                                <br />
+                                <img class="me" src="./supplemental_files/dnb.jpg" alt="Dionne Noella Barretto">
+                            </figure>
+                        </h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>I am Dionne Noella a learning enthusiast and an aspiring <strong> Full Stack Web Developer </strong>,
+            currently employed at
+            <a href="https://g.co/kgs/t8KRK8" target="_blank"><img title="Click to learn more about Google"
+                    class="google brightness" src="./supplemental_files/Google.gif" alt="Google Logo" /></a>
+            as a Senior Solutions Consultant (TAM) in the Google Cloud division. Previously I was at
+            <a href="https://www.rubrik.com/" target="blank"><img title="Click to learn more about Rubrik"
+                    class="rubrik brightness" src="./supplemental_files/Rubrik_Logo.svg" alt="Rubrik Image"></a>,
+            serving in the capacity of a Customer Experience Manager for some of
+            the largest enterprise and strategic accounts in the data management domain & prior
+            to that I
+            was with <span title="For more information about VMware, click this link"><strong class="link"><a
+                        href="https://www.vmware.com/" target="_blank">VMware</a></strong></span>, where I worked through the ranks from a Support Engineer to a
+            Horizon Cloud
+            Global Escalation Manager in the space of Desktop and Application as a Service.
+            <br><br> My 7+ years of experience in the domain of customer experience and service management positions me
+            to provide unique perspectives on how end users interact with websites, software and platforms. Passionate
+            about cloud technology and responsive web development by creating meaningful web applications that will set
+            the foundations for using <strong><em>“Technology for Good”</em></strong> (social causes)!
+            <br><br>
+            I’m experienced in testing, troubleshooting,consulting and architecting solutions for cloud technologies
+            which form the basis for web application deployments as a hosting platform for enterprises-an area I am keen
+            to work in to bridge the 2 worlds.
+        </p>
+    </section>
+    <br />
+
+
+    <!-- Presentations -->
+
+    <section class="presentations py-md-5 py-4" id="presentations">
+        <div class="container">
+            <div class="py-md-5 py-4">
+                <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center"> My VMWorld 2019 Speaker Sessions</h3>
+                <div class="tabs ">
+                    <ul class="nav nav-justified my-md-5 my-3 pt-lg-3 justify-content-center w-100">
+                        <li class="nav-item">
+                            <a class="nav-link btn work"
+                                href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
+                                target="_blank" title="Click to be redirected to a facebook video" rel="noopener"
+                                role="tab" aria-controls="pills-home" aria-selected="true"> Troubleshooting SuperHeroes
+                                in Horizon Cloud </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work"
+                                href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
+                                target="_blank" title="Click to be redirected to a facebook video" rel="noopener"
+                                role="tab" aria-controls="pills-home" aria-selected="true">Zero to Hero: End to End
+                                Horizon Cloud on Azure troubleshooting workshop</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Presentations -->
-
-<section class="presentations py-md-5 py-4" id="presentations">
-    <div class="container">
-        <div class="py-md-5 py-4">
-            <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center"> My VMWorld 2019 Speaker Sessions</h3>
-                <div class="tabs ">
-                    <ul class="nav nav-justified my-md-5 my-3 pt-lg-3 justify-content-center w-100">
-                        <li class="nav-item">
-                           <a class="nav-link btn work" href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId" target="_blank" title="Click to be redirected to a facebook video" rel="noopener" role="tab" aria-controls="pills-home" aria-selected="true"> Troubleshooting SuperHeroes in Horizon Cloud </a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link btn work" href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId" target="_blank" title="Click to be redirected to a facebook video" rel="noopener" role="tab" aria-controls="pills-home" aria-selected="true">Zero to Hero: End to End Horizon Cloud on Azure troubleshooting workshop</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
-</section>
-
-<!-- will add this later.. -->
-<!-- Professional Experience & Educational Timeline -->
-<!-- <section class="experience py-lg-5 py-4" id="experience">
+    <!-- will add this later.. -->
+    <!-- Professional Experience & Educational Timeline -->
+    <!-- <section class="experience py-lg-5 py-4" id="experience">
     <div class="timeline py-lg-5 py-3">
         <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Professional & Educational Experience Timeline</h3>
         <div id="my-timeline"></div>
     </div>
 </section> -->
-<!-- May include this at a later point.. still not certain on if whether or not to include it..
+    <!-- May include this at a later point.. still not certain on if whether or not to include it..
 <section class="banner-bottom-wthree py-md-5 container inner-sec-w3ls py-lg-5 py-4 info-about text-center" id="background">
                 <h3 class="tittle-w3">Background</h3>
                 <br/>
@@ -169,21 +237,24 @@
                     </p>
 </section> -->
 
-<!--Spotlight Projects  -->
+    <!--Spotlight Projects  -->
     <section class="gallery py-md-5 py-3" id="projects">
         <div class="gallery-inner container py-md-5 pb-3">
             <!-- need to still work on adding filters for the programming languages used in the projects -->
             <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Spotlight Projects</h3>
-    <!-- scrolling text within the main body as referenced here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee -->
+            <!-- scrolling text within the main body as referenced here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee -->
             <marquee direction="left" width="100%" scrollamount="15">
                 <p>Click within each card to be redirected to the project site</p>
             </marquee>
             <div class="row">
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="E-Commerce Backend Application using ORM, Express.js, MySQL and Sequelize" href="https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize" target="_blank">
+                        <a title="E-Commerce Backend Application using ORM, Express.js, MySQL and Sequelize"
+                            href="https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize"
+                            target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize.gif" alt="E-Commerce Backend Application Gif" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize.gif"
+                                    alt="E-Commerce Backend Application Gif" class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>E-Commerce Backend Application</h3>
                                 </div>
@@ -193,9 +264,12 @@
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL." href="https://github.com/DionneNoellaBarretto/12-EmployeeContentManagementSystem_using_mysql-node.js" target="_blank">
+                        <a title="A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL."
+                            href="https://github.com/DionneNoellaBarretto/12-EmployeeContentManagementSystem_using_mysql-node.js"
+                            target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/EmployeeContentManagementSystem_using_mysql-node.js.gif" alt="Employee Content Management System Gif" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/EmployeeContentManagementSystem_using_mysql-node.js.gif"
+                                    alt="Employee Content Management System Gif" class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Employee Content Management System</h3>
                                 </div>
@@ -205,9 +279,11 @@
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="Note Taker an app deployed on heroku that can be used to write and save notes and is built using Express.js" href="https://safe-brushlands-44448.herokuapp.com/" target="_blank">
+                        <a title="Note Taker an app deployed on heroku that can be used to write and save notes and is built using Express.js"
+                            href="https://safe-brushlands-44448.herokuapp.com/" target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/NoteTaker.png" alt="Note Taker Landing Page Image" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/NoteTaker.png" alt="Note Taker Landing Page Image"
+                                    class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Note Taker</h3>
                                 </div>
@@ -217,9 +293,11 @@
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="A practice Project to experiment designing Profile ID Card designs, css, positioning and divs." href="https://dionnenoellabarretto.github.io/Profile_ID_Card/" target="_blank">
+                        <a title="A practice Project to experiment designing Profile ID Card designs, css, positioning and divs."
+                            href="https://dionnenoellabarretto.github.io/Profile_ID_Card/" target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/ProfileIDCard.png" alt="Profile ID Card Images" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/ProfileIDCard.png" alt="Profile ID Card Images"
+                                    class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Profile ID Card Design</h3>
                                 </div>
@@ -229,9 +307,12 @@
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and also perform manual unit tests for functionality checks." href="https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests" target="_blank">
+                        <a title="A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and also perform manual unit tests for functionality checks."
+                            href="https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests"
+                            target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/TeamProfileGenerator_jest,npm,node.js,oop.gif" alt="Team Profile Generator Gif" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/TeamProfileGenerator_jest,npm,node.js,oop.gif"
+                                    alt="Team Profile Generator Gif" class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Team Profile Generator</h3>
                                 </div>
@@ -241,9 +322,12 @@
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="s someone who loves to experiment with various combinations of colors I've created a easy bookmark'able project that allows frontend enthusiasts looking to experiment with background colors and gradient shades to click until they find a color scheme that suits their taste" href="https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/" target="_blank">
+                        <a title="s someone who loves to experiment with various combinations of colors I've created a easy bookmark'able project that allows frontend enthusiasts looking to experiment with background colors and gradient shades to click until they find a color scheme that suits their taste"
+                            href="https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/"
+                            target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/HexColorExample.png" alt="I'm Feeling App Landing Page Image" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/HexColorExample.png"
+                                    alt="I'm Feeling App Landing Page Image" class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>A Simple Random Color - Hex Code Generator</h3>
                                 </div>
@@ -253,9 +337,12 @@
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
-                        <a title="A group Project to allow users to channel their feelings at appropriate places they can visit" href="https://github.com/DionneNoellaBarretto/ImFeeling-Project1-Interactive-Web-APP" target="_blank">
+                        <a title="A group Project to allow users to channel their feelings at appropriate places they can visit"
+                            href="https://github.com/DionneNoellaBarretto/ImFeeling-Project1-Interactive-Web-APP"
+                            target="_blank">
                             <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/I'mFeelingApp.png" alt="I'm Feeling App Landing Page Image" class="img-responsive img-fluid">
+                                <img src="./supplemental_files/I'mFeelingApp.png"
+                                    alt="I'm Feeling App Landing Page Image" class="img-responsive img-fluid">
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>I'm Feeling App</h3>
                                 </div>
@@ -263,225 +350,259 @@
                         </a>
                     </div>
                 </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="A web application to allow users to schedule their work day" href="https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/WorkDayScheduler.png" alt="Workday Scheduler Landing Page Image" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Work Day Scheduler</h3>
-                                    </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="A web application to allow users to schedule their work day"
+                            href="https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/"
+                            target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/WorkDayScheduler.png"
+                                    alt="Workday Scheduler Landing Page Image" class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Work Day Scheduler</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="A timed code quiz testing your javascript knowledge" href="https://dionnenoellabarretto.github.io/04-CodeQuizApp_HW4/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/CodeQuiz.png" alt="Code Quiz Landing Page Image" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Code Quiz</h3>
-                                    </div>
+                </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="A timed code quiz testing your javascript knowledge"
+                            href="https://dionnenoellabarretto.github.io/04-CodeQuizApp_HW4/" target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/CodeQuiz.png" alt="Code Quiz Landing Page Image"
+                                    class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Code Quiz</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="A web application that allows you to generate a random password of your choosing" href="https://dionnenoellabarretto.github.io/03--PasswordGenerator_JavaScript/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/PasswordGenerator.png" alt="Password Generator Image" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Password Generator</h3>
-                                    </div>
+                </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="A web application that allows you to generate a random password of your choosing"
+                            href="https://dionnenoellabarretto.github.io/03--PasswordGenerator_JavaScript/"
+                            target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/PasswordGenerator.png" alt="Password Generator Image"
+                                    class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Password Generator</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="A simple interest calculator" href="https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/SimpleInterestCalculator.png" alt="Simple Interest Calculator Image" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Simple Interest Calculator</h3>
-                                    </div>
+                </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="A simple interest calculator"
+                            href="https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/" target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/SimpleInterestCalculator.png"
+                                    alt="Simple Interest Calculator Image" class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Simple Interest Calculator</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="A tribute Page -TimBernersLee" href="https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/TributePage.png" alt="Tribute Page Image" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Tribute Page</h3>
-                                    </div>
+                </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="A tribute Page -TimBernersLee"
+                            href="https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/"
+                            target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/TributePage.png" alt="Tribute Page Image"
+                                    class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Tribute Page</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="DNB old Portfolio" href="https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/PortfolioImage.png" alt="Old Portfolio Landing Page Image" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Previous ePortfolio</h3>
-                                    </div>
+                </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="DNB old Portfolio"
+                            href="https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/" target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/PortfolioImage.png"
+                                    alt="Old Portfolio Landing Page Image" class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Previous ePortfolio</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                        <div class="section_1_gallery_grid">
-                            <a title="An easy web application to find out the current weather condition in a city" href="https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/" target="_blank">
-                                <div class="section_1_gallery_grid1">
-                                    <img src="./supplemental_files/WeatherDashboard.png" alt="Weather Dashboard" class="img-responsive img-fluid">
-                                    <div class="proj_gallery_grid1_pos">
-                                        <h3>Weather Dashboard</h3>
-                                    </div>
+                </div>
+                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                    <div class="section_1_gallery_grid">
+                        <a title="An easy web application to find out the current weather condition in a city"
+                            href="https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/" target="_blank">
+                            <div class="section_1_gallery_grid1">
+                                <img src="./supplemental_files/WeatherDashboard.png" alt="Weather Dashboard"
+                                    class="img-responsive img-fluid">
+                                <div class="proj_gallery_grid1_pos">
+                                    <h3>Weather Dashboard</h3>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Contact Me Section-->
     <section class="container contact py-lg-5 py-md-5 py-3" id="contact">
-            <div class="inner-sec-w3ls py-lg-5 py-3">
-                <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Contact Me</h3>
-                <div class="contact_grid_right">
+        <div class="inner-sec-w3ls py-lg-5 py-3">
+            <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Contact Me</h3>
+            <div class="contact_grid_right">
                 <!-- form section wont work unless this page is live on a server - example githubpages site-->
-                    <form action="https://formsubmit.co/dionnenoellabarretto.aw@gmail.com" method="POST">
-                        <div class="row contact_left_grid">
-                            <div class="col-md-6 con-left">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="name" placeholder="Please enter Your Name here" required pattern="[A-Za-z]{3,}" title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
-                                </div>
-                                <br/>
-                                <div class="form-group">
-                                    <input class="form-control" type="email" name="email" placeholder="Enter Your email address here" 
-                                    pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$" required title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
-                                </div>
-                                <br/>
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="Subject" placeholder="Type your message Subject here" pattern="[A-Za-z0-9]{3,}
-                            " required title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
-                                </div>
-                                <br/>
+                <form action="https://formsubmit.co/dionnenoellabarretto.aw@gmail.com" method="POST">
+                    <div class="row contact_left_grid">
+                        <div class="col-md-6 con-left">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="name"
+                                    placeholder="Please enter Your Name here" required pattern="[A-Za-z]{3,}"
+                                    title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
                             </div>
-                            <div class="col-md-6 con-right" data-aos="fade-up">
-                                <div class="form-group">
-                                    <textarea id="textarea" placeholder="Type your message here" required=""></textarea>
-                                </div>
+                            <br />
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email"
+                                    placeholder="Enter Your email address here"
+                                    pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$" required
+                                    title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
                             </div>
-                            <div class="sub-honey mx-auto mt-3">
-                                <input class="form-control" type="submit" value="Submit"> </div>
+                            <br />
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="Subject"
+                                    placeholder="Type your message Subject here" pattern="[A-Za-z0-9]{3,}
+                            " required
+                                    title="For privacy sake, text color fades out and can be highlighted using mouse select prior to submitting">
+                            </div>
+                            <br />
                         </div>
-                    </form>
-                </div>
-                <div class="contact row mt-lg-5">
-                    <div class="col-md-4 contact-grid" data-aos="flip-up">
-                        <div class="contact-info">
-                            <div class="contact-left text-center">
-                                <i class="far fa-envelope" title="Email Me using your local mailing client"></i>
+                        <div class="col-md-6 con-right" data-aos="fade-up">
+                            <div class="form-group">
+                                <textarea id="textarea" placeholder="Type your message here" required=""></textarea>
                             </div>
-                            <div class="contact-right text-center">
-                                <h6 class="my-3"> Electronic Mail
+                        </div>
+                        <div class="sub-honey mx-auto mt-3">
+                            <input class="form-control" type="submit" value="Submit"> </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact row mt-lg-5">
+                <div class="col-md-4 contact-grid" data-aos="flip-up">
+                    <div class="contact-info">
+                        <div class="contact-left text-center">
+                            <i class="far fa-envelope" title="Email Me using your local mailing client"></i>
+                        </div>
+                        <div class="contact-right text-center">
+                            <h6 class="my-3"> Electronic Mail
                                 <p>Email:
-                                    <a href="mailto:dionnenoellabarretto.aw@gmail.com" target="_blank">DNB</a>    
+                                    <a href="mailto:dionnenoellabarretto.aw@gmail.com" target="_blank">DNB</a>
                                 </p>
-                                </h6>
-                            </div>
+                            </h6>
                         </div>
                     </div>
-                    <div class="col-md-4 contact-grid" data-aos="flip-up">
-                        <div class="contact-info">
-                            <div class="contact-left text-center">
-                                <i class="far fa-calendar-alt" title="Click 'Availability' to schedule time on my Calendar"></i>
-                            </div>
-                            <div class="contact-right text-center">
-                                <h6 class="my-3"> Calendar
+                </div>
+                <div class="col-md-4 contact-grid" data-aos="flip-up">
+                    <div class="contact-info">
+                        <div class="contact-left text-center">
+                            <i class="far fa-calendar-alt"
+                                title="Click 'Availability' to schedule time on my Calendar"></i>
+                        </div>
+                        <div class="contact-right text-center">
+                            <h6 class="my-3"> Calendar
                                 <p> DNB's :
-                                    <a href="https://getcloud.withgoogle.com/schedule/dionnenoella?ln=en" target="_blank"> Availability</a>
+                                    <a href="https://getcloud.withgoogle.com/schedule/dionnenoella?ln=en"
+                                        target="_blank"> Availability</a>
                                 </p>
-                                </h6>
-                            </div>
+                            </h6>
                         </div>
                     </div>
-                    <div class="col-md-4 contact-grid" data-aos="flip-up">
-                        <div class="contact-info">
-                            <div class="contact-left text-center">
-                                <i class="fas fa-mobile-alt" title="Click # to call me"></i>
-                            </div>
-                            <div class="contact-right text-center">
-                                <h6 class="my-3"> Google Voice
+                </div>
+                <div class="col-md-4 contact-grid" data-aos="flip-up">
+                    <div class="contact-info">
+                        <div class="contact-left text-center">
+                            <i class="fas fa-mobile-alt" title="Click # to call me"></i>
+                        </div>
+                        <div class="contact-right text-center">
+                            <h6 class="my-3"> Google Voice
                                 <p>Phone :
-                                    <a href="https://voice.google.com/u/0/calls?a=nc,%2B[650-810-1459]" target="blank">#</a>
+                                    <a href="https://voice.google.com/u/0/calls?a=nc,%2B[650-810-1459]"
+                                        target="blank">#</a>
                                 </p>
-                                </h6>
-                            </div>
+                            </h6>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 </body>
-    <hr/> <!-- Horizontal Line -->
-    
-     <!-- shortcut to scroll to the top in 1 click -->
-    <!--/footer-->
-    <footer class="footer text-left py-lg-5 py-md-5 py-3">
-        <div class="container py-4 py-sm-5">
-            <br/> <!-- Blank space -->
-            <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
-                <div class="copy-right-w3ls">
-                    <h4> &copy; Copyright 2021 | Dionne Noella Barretto </h4>
-                </div>
-                <div class="social-content pb-md-0 pb-4">
-                    <ul class="social-icons text-center d-flex" >
-                        <li class="ml-lg-5">
-                            <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d" target="_blank" title= "Click to view my Qwiklabs Profile">
-                                <i class="iconify" data-icon="simple-icons:qwiklabs" data-inline="false"></i>
-                            </a>
-                        </li>
-                        <li class="ml-lg-5">
-                            <a href="https://www.codecademy.com/profiles/DenverDionne" target="_blank" title= "Click to view my Codecademy Profile">
-                                <i class="iconify" data-icon="simple-icons:codecademy" data-inline="false"></i>
-                            </a>
-                        </li>
-                        <li class="ml-lg-5">
-                            <a href="https://www.freecodecamp.org/dionnenoellabarretto" target="_blank" title="Click to view my FreeCodeCamp Profile" ><i class="fab fa-free-code-camp"></i></a>
-                        </li>
-                        <li class="ml-lg-5">
-                            <a href="https://github.com/DionneNoellaBarretto" target="_blank" title="Click to view my Github Profile"><i class="fab fa-github"></i></a>
-                        </li>
-                        <li class="ml-lg-5">
-                            <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank" title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                    </ul>
-                </div>
+<hr /> <!-- Horizontal Line -->
+
+<!-- shortcut to scroll to the top in 1 click -->
+<!--/footer-->
+<footer class="footer text-left py-lg-5 py-md-5 py-3">
+    <div class="container py-4 py-sm-5">
+        <br /> <!-- Blank space -->
+        <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
+            <div class="copy-right-w3ls">
+                <h4> &copy; Copyright 2021 | Dionne Noella Barretto </h4>
             </div>
-            <marquee direction="left" scrollamount="10" ><h5><!-- adds a script to display last modified date and time -->
-                <script> 
-                    document.write( "Last modified on: " + document.lastModified + "");
-                </script>
-            </h5></marquee>
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Top &#129045;</button>
+            <div class="social-content pb-md-0 pb-4">
+                <ul class="social-icons text-center d-flex">
+                    <li class="ml-lg-5">
+                        <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d"
+                            target="_blank" title="Click to view my Qwiklabs Profile">
+                            <i class="iconify" data-icon="simple-icons:qwiklabs" data-inline="false"></i>
+                        </a>
+                    </li>
+                    <li class="ml-lg-5">
+                        <a href="https://www.codecademy.com/profiles/DenverDionne" target="_blank"
+                            title="Click to view my Codecademy Profile">
+                            <i class="iconify" data-icon="simple-icons:codecademy" data-inline="false"></i>
+                        </a>
+                    </li>
+                    <li class="ml-lg-5">
+                        <a href="https://www.freecodecamp.org/dionnenoellabarretto" target="_blank"
+                            title="Click to view my FreeCodeCamp Profile"><i class="fab fa-free-code-camp"></i></a>
+                    </li>
+                    <li class="ml-lg-5">
+                        <a href="https://github.com/DionneNoellaBarretto" target="_blank"
+                            title="Click to view my Github Profile"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="ml-lg-5">
+                        <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank"
+                            title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </footer>
+        <marquee direction="left" scrollamount="10">
+            <h5>
+                <!-- adds a script to display last modified date and time -->
+                <script>
+                    document.write("Last modified on: " + document.lastModified + "");
+                </script>
+            </h5>
+        </marquee>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top &#129045;</button>
+    </div>
+</footer>
 
 <!-- link for codecademy/qwiklabs icon as stated here: https://iconify.design/icon-sets/simple-icons/codecademy.html & https://iconify.design/icon-sets/simple-icons/qwiklabs.html -->
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 <!-- link to jquery minified -->
 <script src="jquery-3.5.1.min.js"></script>
 <!-- link to javascript -->
-    <script src="./javascript/script.js"></script>
+<script src="./javascript/script.js"></script>
 
 </html>

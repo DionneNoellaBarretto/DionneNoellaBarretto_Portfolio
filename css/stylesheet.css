@@ -12,6 +12,9 @@ html, body {
     font-family: 'Roboto', sans-serif;
     background: #f0f5ff !important;
 }
+p{
+    margin: 1rem;
+}
 
 body a {
     text-decoration: none;
@@ -21,6 +24,13 @@ body a {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     font-family: 'Roboto', sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.2rem;
 }
 
 a:hover {
@@ -519,6 +529,8 @@ ul.list-footer li a:hover {
 
 }
 
+
+
 ul.list-footer li {
     list-style: none;
     color: #fff;
@@ -568,7 +580,7 @@ ul.social-icons li a:hover {
 
 @media(max-width:1080px) {
     .me {
-        border-color: yellow;
+        border-color: #ffc107;
         flex-direction: column;
    }
     .contact {
