@@ -62,10 +62,20 @@ h2,h4 {
 
 .footer{
     padding: 0px;
-    position: relative;
+    position: fixed;
     bottom: 0px;
     width: 100%;
+    height: 95px;
     background: linear-gradient(-60deg,rgb(163, 212, 240),lemonchiffon,rgb(107, 107, 107));
+}
+
+
+footer .container {
+    padding: 5px;
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    height: 90px;
 }
 
 p {
@@ -181,13 +191,14 @@ h4.progress-tittle-w3 {
 
 /* Scroll to the top quick link*/
 #myBtn {
-    position: relative;    /* Fixed/sticky position */
-    bottom: 0;  /* Place the button at the bottom left of the page */
+    position: fixed;    /* Fixed/sticky position */
+    right: 10px;
+    bottom: 25px;  /* Place the button at the bottom left of the page */
     border: dotted 2px;    /* Remove borders */
     outline: rgb(94, 93, 93);    /* Remove outline */
     color: #000;    /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 10px;    /* Some padding */
+    padding: 20px;    /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 10px;  /* Increase font size */
   }

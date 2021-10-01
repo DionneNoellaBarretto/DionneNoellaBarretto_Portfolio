@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    
     <!-- ======= Mobile nav toggle button =======
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button> -->
 
@@ -55,10 +56,11 @@
 </main> -->
     <br />
     <br />
-    <section>
-        <div class="grid-container">
+    <section> 
+        <!-- grid structure reference : https://coder-coder.com/display-divs-side-by-side/ -->
+        <div class="grid-container py-lg-5 py-md-5 py-3">
             <div class="grid-child">
-                <div class="inner-sec-w3ls py-lg-5 py-4 ">
+                <div class="inner-sec-w3ls py-lg-5 py-3 ">
                     <div class="info-about text-center ">
                         <!-- need to further refine the skills section to have dropdowns -->
                         <h3 class="tittle-w3 text-uppercase mb-lg-1 mb-3">Skills</h3>
@@ -149,7 +151,7 @@
             </div>
 
             <div class="grid-child " id="about">
-                <div class="green inner-sec-w3ls py-lg-5 py-4 ">
+                <div class="green inner-sec-w3ls py-lg-5 py-3 ">
                     <div class="info-about text-center ">
                         <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3">About Me
                             <figure>
@@ -162,7 +164,7 @@
                 </div>
             </div>
         </div>
-
+        
         <p>I am Dionne Noella a learning enthusiast and an aspiring <strong> Full Stack Web Developer </strong>,
             currently employed at
             <a href="https://g.co/kgs/t8KRK8" target="_blank"><img title="Click to learn more about Google"
@@ -174,7 +176,8 @@
             the largest enterprise and strategic accounts in the data management domain & prior
             to that I
             was with <span title="For more information about VMware, click this link"><strong class="link"><a
-                        href="https://www.vmware.com/" target="_blank">VMware</a></strong></span>, where I worked through the ranks from a Support Engineer to a
+                        href="https://www.vmware.com/" target="_blank">VMware</a></strong></span>, where I worked
+            through the ranks from a Support Engineer to a
             Horizon Cloud
             Global Escalation Manager in the space of Desktop and Application as a Service.
             <br><br> My 7+ years of experience in the domain of customer experience and service management positions me
@@ -187,35 +190,25 @@
             to work in to bridge the 2 worlds.
         </p>
     </section>
-    <br />
-
-
     <!-- Presentations -->
-
-    <section class="presentations py-md-5 py-4" id="presentations">
-        <div class="container">
-            <div class="py-md-5 py-4">
-                <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center"> My VMWorld 2019 Speaker Sessions</h3>
-                <div class="tabs ">
-                    <ul class="nav nav-justified my-md-5 my-3 pt-lg-3 justify-content-center w-100">
-                        <li class="nav-item">
-                            <a class="nav-link btn work"
-                                href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
-                                target="_blank" title="Click to be redirected to a facebook video" rel="noopener"
-                                role="tab" aria-controls="pills-home" aria-selected="true"> Troubleshooting SuperHeroes
-                                in Horizon Cloud </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn work"
-                                href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
-                                target="_blank" title="Click to be redirected to a facebook video" rel="noopener"
-                                role="tab" aria-controls="pills-home" aria-selected="true">Zero to Hero: End to End
-                                Horizon Cloud on Azure troubleshooting workshop</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <section class="container presentations py-md-5 py-3 tabs" id="presentations">
+        <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center"> My VMWorld 2019 Speaker Sessions</h3>
+        <ul class="nav nav-justified my-md-5 my-3 pt-lg-3 justify-content-center w-100">
+            <li class="nav-item">
+                <a class="nav-link btn work"
+                    href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
+                    target="_blank" title="Click to be redirected to a facebook video" rel="noopener" role="tab"
+                    aria-controls="pills-home" aria-selected="true"> Troubleshooting SuperHeroes
+                    in Horizon Cloud </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn work"
+                    href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
+                    target="_blank" title="Click to be redirected to a facebook video" rel="noopener" role="tab"
+                    aria-controls="pills-home" aria-selected="true">Zero to Hero: End to End
+                    Horizon Cloud on Azure troubleshooting workshop</a>
+            </li>
+        </ul>
     </section>
 
     <!-- will add this later.. -->
@@ -238,218 +231,215 @@
 </section> -->
 
     <!--Spotlight Projects  -->
-    <section class="gallery py-md-5 py-3" id="projects">
-        <div class="gallery-inner container py-md-5 pb-3">
-            <!-- need to still work on adding filters for the programming languages used in the projects -->
-            <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Spotlight Projects</h3>
-            <!-- scrolling text within the main body as referenced here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee -->
-            <marquee direction="left" width="100%" scrollamount="15">
-                <p>Click within each card to be redirected to the project site</p>
-            </marquee>
-            <div class="row">
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="E-Commerce Backend Application using ORM, Express.js, MySQL and Sequelize"
-                            href="https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize.gif"
-                                    alt="E-Commerce Backend Application Gif" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>E-Commerce Backend Application</h3>
-                                </div>
+    <section class="gallery py-md-5 py-3 gallery-inner container" id="projects">
+        <!-- need to still work on adding filters for the programming languages used in the projects -->
+        <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Spotlight Projects</h3>
+        <!-- scrolling text within the main body as referenced here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee -->
+        <marquee direction="left" width="100%" scrollamount="15">
+            <p>Click within each card to be redirected to the project site</p>
+        </marquee>
+        <div class="row">
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="E-Commerce Backend Application using ORM, Express.js, MySQL and Sequelize"
+                        href="https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize.gif"
+                                alt="E-Commerce Backend Application Gif" class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>E-Commerce Backend Application</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL."
-                            href="https://github.com/DionneNoellaBarretto/12-EmployeeContentManagementSystem_using_mysql-node.js"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/EmployeeContentManagementSystem_using_mysql-node.js.gif"
-                                    alt="Employee Content Management System Gif" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Employee Content Management System</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL."
+                        href="https://github.com/DionneNoellaBarretto/12-EmployeeContentManagementSystem_using_mysql-node.js"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/EmployeeContentManagementSystem_using_mysql-node.js.gif"
+                                alt="Employee Content Management System Gif" class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Employee Content Management System</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="Note Taker an app deployed on heroku that can be used to write and save notes and is built using Express.js"
-                            href="https://safe-brushlands-44448.herokuapp.com/" target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/NoteTaker.png" alt="Note Taker Landing Page Image"
-                                    class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Note Taker</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="Note Taker an app deployed on heroku that can be used to write and save notes and is built using Express.js"
+                        href="https://safe-brushlands-44448.herokuapp.com/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/NoteTaker.png" alt="Note Taker Landing Page Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Note Taker</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A practice Project to experiment designing Profile ID Card designs, css, positioning and divs."
-                            href="https://dionnenoellabarretto.github.io/Profile_ID_Card/" target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/ProfileIDCard.png" alt="Profile ID Card Images"
-                                    class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Profile ID Card Design</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A practice Project to experiment designing Profile ID Card designs, css, positioning and divs."
+                        href="https://dionnenoellabarretto.github.io/Profile_ID_Card/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/ProfileIDCard.png" alt="Profile ID Card Images"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Profile ID Card Design</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and also perform manual unit tests for functionality checks."
-                            href="https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/TeamProfileGenerator_jest,npm,node.js,oop.gif"
-                                    alt="Team Profile Generator Gif" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Team Profile Generator</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and also perform manual unit tests for functionality checks."
+                        href="https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/TeamProfileGenerator_jest,npm,node.js,oop.gif"
+                                alt="Team Profile Generator Gif" class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Team Profile Generator</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="s someone who loves to experiment with various combinations of colors I've created a easy bookmark'able project that allows frontend enthusiasts looking to experiment with background colors and gradient shades to click until they find a color scheme that suits their taste"
-                            href="https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/HexColorExample.png"
-                                    alt="I'm Feeling App Landing Page Image" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>A Simple Random Color - Hex Code Generator</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="s someone who loves to experiment with various combinations of colors I've created a easy bookmark'able project that allows frontend enthusiasts looking to experiment with background colors and gradient shades to click until they find a color scheme that suits their taste"
+                        href="https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/HexColorExample.png" alt="I'm Feeling App Landing Page Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>A Simple Random Color - Hex Code Generator</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A group Project to allow users to channel their feelings at appropriate places they can visit"
-                            href="https://github.com/DionneNoellaBarretto/ImFeeling-Project1-Interactive-Web-APP"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/I'mFeelingApp.png"
-                                    alt="I'm Feeling App Landing Page Image" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>I'm Feeling App</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A group Project to allow users to channel their feelings at appropriate places they can visit"
+                        href="https://github.com/DionneNoellaBarretto/ImFeeling-Project1-Interactive-Web-APP"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/I'mFeelingApp.png" alt="I'm Feeling App Landing Page Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>I'm Feeling App</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A web application to allow users to schedule their work day"
-                            href="https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/WorkDayScheduler.png"
-                                    alt="Workday Scheduler Landing Page Image" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Work Day Scheduler</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A web application to allow users to schedule their work day"
+                        href="https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/WorkDayScheduler.png"
+                                alt="Workday Scheduler Landing Page Image" class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Work Day Scheduler</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A timed code quiz testing your javascript knowledge"
-                            href="https://dionnenoellabarretto.github.io/04-CodeQuizApp_HW4/" target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/CodeQuiz.png" alt="Code Quiz Landing Page Image"
-                                    class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Code Quiz</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A timed code quiz testing your javascript knowledge"
+                        href="https://dionnenoellabarretto.github.io/04-CodeQuizApp_HW4/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/CodeQuiz.png" alt="Code Quiz Landing Page Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Code Quiz</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A web application that allows you to generate a random password of your choosing"
-                            href="https://dionnenoellabarretto.github.io/03--PasswordGenerator_JavaScript/"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/PasswordGenerator.png" alt="Password Generator Image"
-                                    class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Password Generator</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A web application that allows you to generate a random password of your choosing"
+                        href="https://dionnenoellabarretto.github.io/03--PasswordGenerator_JavaScript/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/PasswordGenerator.png" alt="Password Generator Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Password Generator</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A simple interest calculator"
-                            href="https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/" target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/SimpleInterestCalculator.png"
-                                    alt="Simple Interest Calculator Image" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Simple Interest Calculator</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A simple interest calculator"
+                        href="https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/SimpleInterestCalculator.png"
+                                alt="Simple Interest Calculator Image" class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Simple Interest Calculator</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="A tribute Page -TimBernersLee"
-                            href="https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/"
-                            target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/TributePage.png" alt="Tribute Page Image"
-                                    class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Tribute Page</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="A tribute Page -TimBernersLee"
+                        href="https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/"
+                        target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/TributePage.png" alt="Tribute Page Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Tribute Page</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="DNB old Portfolio"
-                            href="https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/" target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/PortfolioImage.png"
-                                    alt="Old Portfolio Landing Page Image" class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Previous ePortfolio</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="DNB old Portfolio"
+                        href="https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/PortfolioImage.png" alt="Old Portfolio Landing Page Image"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Previous ePortfolio</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
-                    <div class="section_1_gallery_grid">
-                        <a title="An easy web application to find out the current weather condition in a city"
-                            href="https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/" target="_blank">
-                            <div class="section_1_gallery_grid1">
-                                <img src="./supplemental_files/WeatherDashboard.png" alt="Weather Dashboard"
-                                    class="img-responsive img-fluid">
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Weather Dashboard</h3>
-                                </div>
+            </div>
+            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+                <div class="section_1_gallery_grid">
+                    <a title="An easy web application to find out the current weather condition in a city"
+                        href="https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/" target="_blank">
+                        <div class="section_1_gallery_grid1">
+                            <img src="./supplemental_files/WeatherDashboard.png" alt="Weather Dashboard"
+                                class="img-responsive img-fluid">
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Weather Dashboard</h3>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -553,11 +543,14 @@
     <div class="container py-4 py-sm-5">
         <br /> <!-- Blank space -->
         <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
-            <div class="copy-right-w3ls">
-                <h4> &copy; Copyright 2021 | Dionne Noella Barretto </h4>
-            </div>
+
+                <h5 class="copy-right-w3ls"> &copy; Copyright 2021| Dionne Noella Barretto </h5>
+                
+
             <div class="social-content pb-md-0 pb-4">
+                
                 <ul class="social-icons text-center d-flex">
+                    
                     <li class="ml-lg-5">
                         <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d"
                             target="_blank" title="Click to view my Qwiklabs Profile">
@@ -582,20 +575,25 @@
                         <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank"
                             title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </li>
+                    
                 </ul>
+                <marquee direction="left" scrollamount="10">
+                    <h6>
+                        <!-- adds a script to display last modified date and time -->
+                        <script>
+                            document.write("Last modified on: " + document.lastModified + "");
+                        </script>
+                    </h6>
+                </marquee>
             </div>
+
         </div>
-        <marquee direction="left" scrollamount="10">
-            <h5>
-                <!-- adds a script to display last modified date and time -->
-                <script>
-                    document.write("Last modified on: " + document.lastModified + "");
-                </script>
-            </h5>
-        </marquee>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top &#129045;</button>
+        
     </div>
+
 </footer>
+<button onclick="topFunction()" id="myBtn" class="btn-lg btn-floating" title="Go to top">Top &#129045;</button>
+
 
 <!-- link for codecademy/qwiklabs icon as stated here: https://iconify.design/icon-sets/simple-icons/codecademy.html & https://iconify.design/icon-sets/simple-icons/qwiklabs.html -->
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
