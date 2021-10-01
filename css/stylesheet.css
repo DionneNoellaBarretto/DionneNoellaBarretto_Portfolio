@@ -63,7 +63,7 @@ h2,h4 {
 .footer{
     padding: 0px;
     position: fixed;
-    bottom: 0px;
+    bottom: 9px;
     width: 100%;
     height: 95px;
     background: linear-gradient(-60deg,rgb(163, 212, 240),lemonchiffon,rgb(107, 107, 107));
