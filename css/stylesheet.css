@@ -63,7 +63,7 @@ h2,h4 {
 .footer{
     padding: 0px;
     position: fixed;
-    bottom: 9px;
+    bottom: 1px;
     width: 100%;
     height: 95px;
     background: linear-gradient(-60deg,rgb(163, 212, 240),lemonchiffon,rgb(107, 107, 107));
@@ -71,7 +71,7 @@ h2,h4 {
 
 
 footer .container {
-    padding: 5px;
+    padding: 2px;
     position: fixed;
     bottom: 50px;
     width: 100%;
@@ -136,7 +136,7 @@ ul.nav-honey {
 .nav-honey li a {
     background: none;
     display: block;
-    color: #fff;
+    color: rgb(218, 216, 216);
     font-size: 0.9em;
     font-weight: 400;
     line-height: 28px;
@@ -150,9 +150,8 @@ ul.nav-honey {
 }
 
 a.btn.work {
-    padding: 0.6em 2em;
-    background: #f0f5ff;
-    font-size: 0.9em;
+    padding: 0.4em 2.5em;
+    font-size: 1em;
     letter-spacing: 1px;
     border-radius: 25px;
     -webkit-border-radius: 25px;

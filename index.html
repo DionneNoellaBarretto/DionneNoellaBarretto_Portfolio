@@ -24,29 +24,52 @@
 </head>
 
 <body>
-    
+
     <!-- ======= Mobile nav toggle button =======
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button> -->
 
     <!-- Header Section -->
     <header id="home">
+
         <!-- nav menu -->
-        <nav class="main-header d-flex mb-lg-5 mb-3 nav-menu">
-            <ul class="d-flex nav navbar-nav w-100 justify-content-between pt-lg-3 nav-honey">
-                <li><a class="btn work" href="index.html">Home</a></li>
-                <li><a class="btn work" href="#about">About Me</a></li>
-                <li><a class="btn work" href="#presentations" title="Click to view my Presentations">Presentations</a>
-                </li>
-                <!-- <li><a class="btn work" href="#background">Background</a></li> -->
-                <li><a class="btn work"
-                        href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
-                        title="Click to Download" target="_blank">Resume</a></li>
-                <!-- <li><a class="btn work" href="#experience">Experience</a></li> this will be added later -->
-                <li><a class="btn work" href="#projects" title="Click to view my Projects">Projects</a></li>
-                <li><a class="btn work" href="https://www.credly.com/users/dionne-noella-barretto/badges"
-                        target="_blank">Certification(s)</a></li>
-                <li><a class="btn work" href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom main-header d-flex mb-lg-5 mb-3 nav-menu">
+            <div class="container-fluid ">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav d-flex nav w-100 justify-content-between pt-lg-3 nav-honey">
+                        <li class="nav-item">
+                            <a class="nav-link btn work" aria-current="page" href="/" title="Homepage">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work" href="#about" title="About Me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work" href="#presentations"
+                                title="Click to view my Presentations">Presentations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work"
+                                href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
+                                title="Click to Download" target="_blank">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work" href="#projects" title="Click to view my Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work"
+                                href="https://www.credly.com/users/dionne-noella-barretto/badges"
+                                target="_blank">Certification(s)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn work" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
         <br />
     </header>
@@ -56,7 +79,7 @@
 </main> -->
     <br />
     <br />
-    <section> 
+    <section>
         <!-- grid structure reference : https://coder-coder.com/display-divs-side-by-side/ -->
         <div class="grid-container py-lg-5 py-md-5 py-3">
             <div class="grid-child">
@@ -164,7 +187,7 @@
                 </div>
             </div>
         </div>
-        
+
         <p>I am Dionne Noella a learning enthusiast and an aspiring <strong> Full Stack Web Developer </strong>,
             currently employed at
             <a href="https://g.co/kgs/t8KRK8" target="_blank"><img title="Click to learn more about Google"
@@ -198,7 +221,7 @@
                 <a class="nav-link btn work"
                     href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
                     target="_blank" title="Click to be redirected to a facebook video" rel="noopener" role="tab"
-                    aria-controls="pills-home" aria-selected="true"> Troubleshooting SuperHeroes
+                    aria-controls="pills-home" aria-selected="true"> Become Troubleshooting Super Heroes
                     in Horizon Cloud </a>
             </li>
             <li class="nav-item">
@@ -539,18 +562,24 @@
 
 <!-- shortcut to scroll to the top in 1 click -->
 <!--/footer-->
-<footer class="footer text-left py-lg-5 py-md-5 py-3">
-    <div class="container py-4 py-sm-5">
+<footer class="footer py-lg-5 py-md-5 py-3">
+    <div class="container text-center py-4 py-sm-5 ">
         <br /> <!-- Blank space -->
-        <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
+        <!-- <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy"> -->
+            <h4 class=" copy-right-w3ls"> &copy; Copyright 2021| Dionne Noella Barretto </h4>
+            <marquee direction="left" scrollamount="10">
+                <h6>
+                    <!-- adds a script to display last modified date and time -->
+                    <script>
+                        document.write("Last modified on: " + document.lastModified + "");
+                    </script>
+                </h6>
+            </marquee>
+</div>
+            <!-- <div class="social-content pb-md-0 pb-4">
 
-                <h5 class="copy-right-w3ls"> &copy; Copyright 2021| Dionne Noella Barretto </h5>
-                
-
-            <div class="social-content pb-md-0 pb-4">
-                
                 <ul class="social-icons text-center d-flex">
-                    
+
                     <li class="ml-lg-5">
                         <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d"
                             target="_blank" title="Click to view my Qwiklabs Profile">
@@ -575,23 +604,12 @@
                         <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank"
                             title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </li>
-                    
                 </ul>
-                <marquee direction="left" scrollamount="10">
-                    <h6>
-                        <!-- adds a script to display last modified date and time -->
-                        <script>
-                            document.write("Last modified on: " + document.lastModified + "");
-                        </script>
-                    </h6>
-                </marquee>
             </div>
-
-        </div>
-        
-    </div>
-
+        </div> -->
+    <!-- </div> -->
 </footer>
+
 <button onclick="topFunction()" id="myBtn" class="btn-lg btn-floating" title="Go to top">Top &#129045;</button>
 
 
