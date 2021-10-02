@@ -25,9 +25,6 @@
 
 <body>
 
-    <!-- ======= Mobile nav toggle button =======
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button> -->
-
     <!-- Header Section -->
     <header id="home">
 
@@ -51,9 +48,7 @@
                                 title="Click to view my Presentations">Presentations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn work"
-                                href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
-                                title="Click to Download" target="_blank">Resume</a>
+                            <a class="nav-link btn work" href="#resume" title="Click to navigate to my Resume">Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn work" href="#projects" title="Click to view my Projects">Projects</a>
@@ -71,13 +66,22 @@
                 </div>
             </div>
         </nav>
-        <br />
     </header>
-    <!-- <main> still working on adding typescript like capabilities using aos.js to change the text portion of  "Frontend Web Development with other areas I like working on.."
-    <h2> Thanks to UNC Coding Boot Camp!</h2><a href="https://bootcamp.unc.edu/coding/" title="Click to Learn More" target="_blank"></a>
-        <h4 data-text="fewd">I &#128150; Frontend Web Development!</h4>
-</main> -->
     <br />
+    <br />
+    <!-- <main id="changin" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="changing-container" data-aos="fade-in">
+            <h1>I &#128150;
+                <span class="typed"
+                    data-typed-items="Web Development,, Cloud Technology, Learning, Arts & Crafts, Volunteering"></span>
+            </h1>
+            <p> Thanks to UNC Coding Boot Camp! <a href="https://bootcamp.unc.edu/coding/" title="Click to Learn More"
+                    target="_blank"></a></p>
+        </div>
+
+    </main> -->
+
+
     <br />
     <section>
         <!-- grid structure reference : https://coder-coder.com/display-divs-side-by-side/ -->
@@ -242,34 +246,34 @@
         <div id="my-timeline"></div>
     </div>
 </section> -->
-    <!-- May include this at a later point.. still not certain on if whether or not to include it..
-<section class="banner-bottom-wthree py-md-5 container inner-sec-w3ls py-lg-5 py-4 info-about text-center" id="background">
-                <h3 class="tittle-w3">Background</h3>
-                <br/>
-                    <p>I'm an iSchool-Syracuse University(SU), 2015 Post Graduate in Telecommunications and Network Management. During my Masters at SU, I was actively involved in formulating the course content, developing lab exercises for the new "IST 600 Cloud Management" Course that rolled out in Fall '15. At SU, my specialization transitioned through the field of Wireless Communications epitomizing Internet of Things (IoT)–Machine to Machine (M2M) Communications–Big Data–Connected Cars in unison with finer elements of legacy Networking aspects. I have channeled all the bits and pieces of this learning graph to fit into a newer universe- "The Cloud"!
-                    <br>
-                    <br> My undergraduate Bachelor's in Electronics and Telecommunication Engineering (Jun'09-May'13) introduced me to Mobile Communication Systems, Digital Communications, Cellular Networks, Wireless Networking fascinated and urged me to
-                    deep dive into this rapidly-paced world of IT Development.
-                    </p>
-</section> -->
+
 
     <!--Spotlight Projects  -->
     <section class="gallery py-md-5 py-3 gallery-inner container" id="projects">
-        <!-- need to still work on adding filters for the programming languages used in the projects -->
         <h3 class="tittle-w3 text-uppercase mb-lg-5 mb-3 text-center">Spotlight Projects</h3>
+        <!-- Still need to add project filtering logic
+             <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-fe">FrontEnd</li>
+                <li data-filter=".filter-be">BackEnd</li>
+                <li data-filter=".filter-fun">Fun</li>
+              </ul>
+            </div>
+          </div> -->
         <!-- scrolling text within the main body as referenced here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee -->
         <marquee direction="left" width="100%" scrollamount="15">
             <p>Click within each card to be redirected to the project site</p>
         </marquee>
         <div class="row">
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-be" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A full stack web application to allow users to follow relevant pertinent social media feeds"
-                        href="https://github.com/DionneNoellaBarretto/Feedster"
-                        target="_blank">
+                        href="https://github.com/DionneNoellaBarretto/Feedster" target="_blank">
                         <div class="section_1_gallery_grid1">
-                            <img src="./supplemental_files/FeedsterProfilePage.png"
-                                alt="Feedster Profile Page Image" class="img-responsive img-fluid">
+                            <img src="./supplemental_files/FeedsterProfilePage.png" alt="Feedster Profile Page Image"
+                                class="img-responsive img-fluid">
                             <div class="proj_gallery_grid1_pos">
                                 <h3>Feedster - Social Media Feed(s) App</h3>
                             </div>
@@ -277,7 +281,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-be" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="E-Commerce Backend Application using ORM, Express.js, MySQL and Sequelize"
                         href="https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize"
@@ -292,7 +296,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-be" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL."
                         href="https://github.com/DionneNoellaBarretto/12-EmployeeContentManagementSystem_using_mysql-node.js"
@@ -307,7 +311,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-be" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and also perform manual unit tests for functionality checks."
                         href="https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests"
@@ -322,7 +326,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fun" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="s someone who loves to experiment with various combinations of colors I've created a easy bookmark'able project that allows frontend enthusiasts looking to experiment with background colors and gradient shades to click until they find a color scheme that suits their taste"
                         href="https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/"
@@ -337,7 +341,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fe" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A group Project to allow users to channel their feelings at appropriate places they can visit"
                         href="https://github.com/DionneNoellaBarretto/ImFeeling-Project1-Interactive-Web-APP"
@@ -352,7 +356,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fe" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A web application to allow users to schedule their work day"
                         href="https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/"
@@ -367,7 +371,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fe" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A timed code quiz testing your javascript knowledge"
                         href="https://dionnenoellabarretto.github.io/04-CodeQuizApp_HW4/" target="_blank">
@@ -381,7 +385,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fe" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="DNB old Portfolio"
                         href="https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/" target="_blank">
@@ -395,7 +399,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fun" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A tribute Page -TimBernersLee"
                         href="https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/"
@@ -410,7 +414,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fe" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="An easy web application to find out the current weather condition in a city"
                         href="https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/" target="_blank">
@@ -423,8 +427,8 @@
                         </div>
                     </a>
                 </div>
-            </div> 
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            </div>
+            <div class="col-md-4 proj_gallery_grid filter-fe" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A web application that allows you to generate a random password of your choosing"
                         href="https://dionnenoellabarretto.github.io/03--PasswordGenerator_JavaScript/" target="_blank">
@@ -438,7 +442,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-be" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="Note Taker an app deployed on heroku that can be used to write and save notes and is built using Express.js"
                         href="https://safe-brushlands-44448.herokuapp.com/" target="_blank">
@@ -452,7 +456,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fun" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A practice Project to experiment designing Profile ID Card designs, css, positioning and divs."
                         href="https://dionnenoellabarretto.github.io/Profile_ID_Card/" target="_blank">
@@ -466,7 +470,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
+            <div class="col-md-4 proj_gallery_grid filter-fun" data-aos="zoom-in">
                 <div class="section_1_gallery_grid">
                     <a title="A simple interest calculator"
                         href="https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/" target="_blank">
@@ -482,6 +486,166 @@
             </div>
         </div>
     </section>
+
+    <!-- ======= Resume Section ======= -->
+    <section class="gallery py-md-5 py-3 gallery-inner container resume" id="resume">
+        <!-- need to still work on adding filters for the programming languages used in the projects -->
+        <h3 class=" container tittle-w3 text-uppercase mb-lg-5 mb-3 text-center"> Resume</h3>
+        <h5 class="text-center"> For a PDF copy of my resume <a
+                href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
+                target="_blank" title="Click to download"> <strong>click here</strong></a></h5>
+
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+                <h3 class="resume-title text-center">Brief Summary</h3>
+                <div class="resume-item pb-0">
+                    <h4>Dionne Noella Barretto | Cary, NC</h4>
+                    <p><em>A self-driven, motivated, aspiring Full Stack Web Developer who is not only a Team Player
+                            but also an Organizational Leader and an “Achiever” with 7+ years of experience in Cloud
+                            technologies, Desktop & Application Virtualization & Customer Engagement + Advocacy !</em>
+                    </p>
+                </div>
+                <br>
+                <h3 class="resume-title text-center">Education</h3>
+                <div class="resume-item">
+                    <h4>Master of Science: Telecommunication and
+                        Network Management </h4>
+                    <h5>Aug ‘13 - May‘15 | 3.297/4    
+                    <p><em>Syracuse University(SU)</em> </p> </h5>
+
+                </div>
+                <div class="resume-item">
+                    <h4>Bachelor of Engineering: Electronics and
+                        Telecommunication</h4>
+                    <h5>Jun ‘09 - May‘13 | 8/10 <p><em>Mumbai University(MU) </em></p></h5>
+                    
+
+                </div>
+                <h3 class="resume-title text-center">Leadership & Recognition</h3>
+                <div class="resume-item">
+                    <p>★ Recognized in the <strong>League of Extraordinary TAM’s -
+                            Q12021</strong>-less than 3 months in Google role | <em>May‘21 </em></p>
+                    <p>★ Google <strong>Volunteer at Little Friends of Elderly to
+                            teach Seniors Tech</strong>| <em>Feb‘21 </em></p>
+                    <p>★ Employee Health, Well being and Mindfulness
+                        BlueDot <strong>Ally at Google</strong> | <em>Feb‘21 </em></p>
+                    <p>★ W@R <strong>(Women at Rubrik) Delegate</strong> | <em>Dec '19' </em></p>
+                    <p>★ <strong>VMworld Speaker</strong> for 2 sessions on “Horizon
+                        Cloud”| <em> Aug'19 </em></p>
+                    <p>★ VMware <strong>“Top Performer” recognition</strong>| <em> '16, '17 </em>
+                    </p>
+                    <p>★ <strong>“Leading Support Case Deflector”</strong> award | <em>'16 </em></p>
+                    <p>★ Rendered <strong> editorial assistance</strong> for “Cloud to
+                        Edgeware” book published on | <em>1st Nov‘15 </em></p>
+                    <p>★ <strong>Presented at the White House & ITERA Conference</strong>
+                        on ‘Emergency Communications using Social Media
+                        Platforms’ | <em>27th -29th May '15 </em></p>
+                    <p>★ <strong>Research Assistance</strong> @ Syracuse University (SU)
+                        for developing a Graduate-level course: IST 600 -
+                        Cloud Computing | <em>Jan '15 </em></p>
+                    <p>★ <strong>President</strong> of Worldwide Innovation Technology
+                        (WiTec) at SU | <em>Jan '15 </em></p>
+                    <p>★ <strong> <a href="https://www.xavier.ac.in/Alumni%20EXTC.php" target="_blank"
+                                title="Click to go to an external university link"> Distinguished Alumni</a></strong>
+                        Xavier
+                        Institute of Engineering - MU | <em>Mar ‘14 </em></p>
+                    <p>★ <strong>First Female Sports Secretary</strong>Xavier
+                        Institute of Engineering - MU | <em>Jun‘12 - May '13 </em></p>
+                    <p>★ Basketball NEtwork Associate<strong>Summer Camp Coach</strong>St. Louis Convent High School |
+                        <em> '02 -'07 </em></p>
+
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title text-center">Professional Experience</h3> 
+                <div class="resume-item">
+                    <h4> <strong>Google</strong> | Senior Solutions Consultant</h4><br>
+                    <h5 class="text-center">Feb '21 - Present | US Remote</h5>
+
+                    <ul >
+                        ➔ Lead strategic and technical faceted enterprise-grade Google Cloud Product/Service adoption
+                        projects in addition to Cloud Transformation initiatives with leading Organizations generating
+                        greater than US $25 million Annual Run Rate (ARR)
+                    </ul>
+                </div>
+                <br><br>
+                <div class="resume-item">
+                    <h4> <strong>Rubrik</strong> | Customer Experience Manager</h4> <br>
+                    <h5 class="text-center">Oct '19 - Feb '21 | Morrisville, NC</h5>
+
+                    <ul>
+                        ➔ Operated as a ‘Customer Champion’- a trusted advisor and an organizational extension for
+                        Account(s) sized greater than uS $1.5Million
+                        <br>➔ Accelerated customer purchase value realization by proactively driving optimization
+                        through
+                        goal setting, quarterly debriefs and early growth footprint opportunity identification
+                        <br>➔ Grew repeat purchases by 7% for Strategic Rubrik multi-million $ Global CEM Accounts by
+                        leading program adoption and return on investment measurement initiatives, in addition to
+                        spearheading service offering refinement opportunities
+                        <br>➔ Owned the end to end lifecycle of a customer from cradle or pilot state through renewals
+                    </ul>
+                </div>
+                <br><br>
+                <div class="resume-item ">
+                    <h4> <strong>VMware</strong> | Escalation Manager</h4><br>
+                    <h5 class="text-center">Aug '18 - Oct '19 | Atlanta, GA</h5>
+
+                    <ul>
+                        ➔ Served as a single point of contact for resolving highly escalated Customer Issues
+                        <br>➔ Boosted customer retention by 5% through improved upgrade & process changes
+                        <br>➔ Championed customer advocacy by liaising with internal teams to limit user downtime
+                        <br>➔ Interfaced with Executives internally and externally by presenting analyzed reports for
+                        the
+                        true
+                        cause and mitigation in addition to developing enhancement roadmap prioritization
+
+                    </ul>
+                </div>
+                <br><br><div class="resume-item">
+                    <h4> <strong>VMware</strong> | Technical Support Manager</h4><br>
+                    <h5 class="text-center">Feb '17 - Aug '18 | Atlanta, GA</h5>
+
+                    <ul>
+                        ➔ Managed and professionally developed & mentored a globally dispersed team of 20
+                        <br>➔ Drove focused clientele experience optimization through improved Net Promoter Score (NPS)
+                        & Customer Satisfaction (CSAT) by driving-down escalation counts by 15% MoM and time to
+                        resolution (TTR) by 25% WoW through global cross-region enablement
+                        <br>➔ Designed, developed and implemented processes and systems to enhance technical workflows,
+                        supportability, and incident management
+                        <br>➔ Served as a primary intermediary between Global Support & internal & external stakeholders
+                        <br>➔ Analyzed and reported business metrics & facilitated blameless postmortems
+                        <br>➔ Reduced “Lighthouse Account” (Enterprise Customers) issue time to resolution by analyzing
+                        root causes and identifying process gaps
+
+                    </ul>
+                </div>
+                <br><br><div class="resume-item">
+                    <h4> <strong>VMware AirWatch</strong> | Technical Support Engineer</h4><br>
+                    <h5 class="text-center">Apr '16 - Feb '17 | Atlanta, GA</h5>
+
+                    <ul>
+                        ➔ Troubleshot to resolve issues posthaste via phone, email & web engagements
+                        <br>➔ Refined documentation & knowledge article repository to decrease support cases
+                        <br>➔ Built out and tested lab environments and training material for new onboarding engineers
+
+                    </ul>
+                </div>
+                <br><br><div class="resume-item">
+                    <h4> <strong>Airwatch by VMware</strong> | Application Support Engineer</h4><br>
+                    <h5 class="text-center">May '15 - April '16 | Atlanta, GA</h5>
+
+                    <ul>
+                        ➔ Provided support for installations, enrollments, best practice recommendations
+                        <br>➔ Responsible for barebone analysis during self-upgrades
+                        <br>➔ Supported a diversified fleet of devices like Nokia, Ruggedized, Symbian, Windows,
+                        Android,
+                        Blackberry like Mobile Operating Systems for a global customer base
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Resume Section -->
+
 
     <!-- Contact Me Section-->
     <section class="container contact py-lg-5 py-md-5 py-3" id="contact">
@@ -581,48 +745,17 @@
     <div class="container text-center py-4 py-sm-5 ">
         <br /> <!-- Blank space -->
         <!-- <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy"> -->
-            <h4 class=" copy-right-w3ls"> &copy; Copyright 2021| Dionne Noella Barretto </h4>
-            <marquee direction="left" scrollamount="10">
-                <h6>
-                    <!-- adds a script to display last modified date and time -->
-                    <script>
-                        document.write("Last modified on: " + document.lastModified + "");
-                    </script>
-                </h6>
-            </marquee>
-</div>
-            <!-- <div class="social-content pb-md-0 pb-4">
+        <h4 class=" copy-right-w3ls"> &copy; Copyright 2021| Dionne Noella Barretto </h4>
+        <marquee direction="left" scrollamount="10">
+            <h6>
+                <!-- adds a script to display last modified date and time -->
+                <script>
+                    document.write("Last modified on: " + document.lastModified + "");
+                </script>
+            </h6>
+        </marquee>
+    </div>
 
-                <ul class="social-icons text-center d-flex">
-
-                    <li class="ml-lg-5">
-                        <a href="https://run.qwiklabs.com/public_profiles/30ee19d4-fd4a-4cf2-aea7-131d35e4b45d"
-                            target="_blank" title="Click to view my Qwiklabs Profile">
-                            <i class="iconify" data-icon="simple-icons:qwiklabs" data-inline="false"></i>
-                        </a>
-                    </li>
-                    <li class="ml-lg-5">
-                        <a href="https://www.codecademy.com/profiles/DenverDionne" target="_blank"
-                            title="Click to view my Codecademy Profile">
-                            <i class="iconify" data-icon="simple-icons:codecademy" data-inline="false"></i>
-                        </a>
-                    </li>
-                    <li class="ml-lg-5">
-                        <a href="https://www.freecodecamp.org/dionnenoellabarretto" target="_blank"
-                            title="Click to view my FreeCodeCamp Profile"><i class="fab fa-free-code-camp"></i></a>
-                    </li>
-                    <li class="ml-lg-5">
-                        <a href="https://github.com/DionneNoellaBarretto" target="_blank"
-                            title="Click to view my Github Profile"><i class="fab fa-github"></i></a>
-                    </li>
-                    <li class="ml-lg-5">
-                        <a href="https://www.linkedin.com/in/dionnenoellabarretto/" target="_blank"
-                            title="Click to connect via LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
-    <!-- </div> -->
 </footer>
 
 <button onclick="topFunction()" id="myBtn" class="btn-lg btn-floating" title="Go to top">Top &#129045;</button>

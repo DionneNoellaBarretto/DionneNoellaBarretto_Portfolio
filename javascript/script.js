@@ -1,4 +1,19 @@
-
+// changing main 
+// !(function($) {
+//     "use strict";
+  
+//     // Hero typed
+//     if ($('.typed').length) {
+//       var typed_strings = $(".typed").data('typed-items');
+//       typed_strings = typed_strings.split(',')
+//       new Typed('.typed', {
+//         strings: typed_strings,
+//         loop: true,
+//         typeSpeed: 100,
+//         backSpeed: 50,
+//         backDelay: 2000
+//       });
+//     }});
 
 // sticky nav bar
 $(() => {
@@ -30,56 +45,3 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-/* Still working on including a timeline for professional experience.. 
-
-    <!-- Including jQuery Timeline Plugins -->
-    <script src="./javascript/jquery.roadmap.js"></script>
-    <script src="./javascript/jquery.waypoints.min.js"></script>
-<!--javascript using jquery for the professional experience section -->
-        // jQuery Timeline Plugin
-$(document).ready(function() {
-
-var events = [{
-        date: 'Feb 2021 - Present',
-        content: 'Google Inc <small>Technical Account Manager, Google Cloud</small>'
-    },
-    {
-        date: 'Oct 2019 - Feb 2021',
-        content: 'Rubrik Inc <small>Customer Experience Manager, Cloud Data Management</small>'
-    },
-    {
-        date: 'Aug 2018 - Oct 2019',
-        content: 'VMware <small>Regional Escalation Manager, Horizon Cloud</small>'
-    },
-    {
-        date: 'Feb 2017 - Aug 2018',
-        content: 'VMware <small>Technical Support Manager, Horizon Cloud</small>'
-    },
-    {
-        date: 'Apr 2016- Feb 2017',
-        content: 'VMware AirWatch <small>Technical Support Engineer, Horizon Cloud</small>'
-    },
-    {
-        date: 'May 2015 - Apr 2016',
-        content: 'AirWatch by VMware<small>Application Support Engineer, Mobile Device Management</small>'
-    },
-    {
-        date: 'Aug 2013 - May 2015',
-        content: 'Syracuse University  <small>Master in Telecommunication and Network Management</small>'
-    },
-
-    {
-        date: 'June 2009 - May 2013',
-        content: 'Mumbai University (Xavier Institute of Engineering)<small>Bachelors in Electronics and Telecommunication Engineering</small>'
-    },
-];
-
-$('#my-timeline').roadmap(events, {
-    eventsPerSlide: 4,
-    slide: 1,
-    prevArrow: '<i class="fas fa-chevron-left"></i>',
-    nextArrow: '<i class="fas fa-chevron-right"></i>'
-});
-});
-*/
