@@ -239,7 +239,7 @@
     </section>
 
 
-    <!-- ======= Resume Section ======= -->
+    <!-- ======= Resume ======= -->
     <section class="gallery py-md-5 py-3 gallery-inner container resume" id="resume">
         <!-- need to still work on adding filters for the programming languages used in the projects -->
         <h3 class=" container tittle-w3 text-uppercase mb-lg-5 mb-3 text-center"> Resume</h3>
@@ -303,7 +303,7 @@
                         Institute of Engineering - MU | <em>Mar ‘14 </em></p>
                     <p>★ <strong>First Female Sports Secretary</strong>Xavier
                         Institute of Engineering - MU | <em>Jun‘12 - May '13 </em></p>
-                    <p>★ Basketball NEtwork Associate<strong>Summer Camp Coach</strong>St. Louis Convent High School |
+                    <p>★ Basketball Network Associate<strong>Summer Camp Coach</strong>St. Louis Convent High School |
                         <em> '02 -'07 </em></p>
 
                 </div>
@@ -738,17 +738,18 @@
             
           </div>
   
-          <div class="row" data-aos="fade-in">
+          <div class="row align-items-center" data-aos="fade-in">
   
-            <div class="col-lg-5 d-flex align-items-stretch contact row mt-lg-5">
-                <div class="col-md-4 contact-grid" data-aos="flip-up">
-                    <div class="contact-info">
+            <div class="col-lg-5 d-flex align-items-stretch align-ve contact row mt-lg-5 ">
+                <div class="col-md-4 contact-grid " data-aos="flip-up">
+                    <div class="contact-info ">
                         <div class="contact-left text-center">
-                            <i class="far fa-envelope" title="Email Me using your local mailing client"></i>
+                            <i class="far fa-envelope" title="Email Me (by clicking 'DNB') using your local mailing client"></i>
                         </div>
                         <div class="contact-right text-center">
                             <h6 class="mx-3"> Electronic Mail
-                                <p>Email:
+                                <br>
+                                <p title="Email Me (by clicking 'DNB') using your local mailing client"><br>Email:
                                     <a href="mailto:dionnenoellabarretto.aw@gmail.com" target="_blank">DNB</a>
                                 </p>
                             </h6>
@@ -762,8 +763,8 @@
                                 title="Click 'Availability' to schedule time on my Calendar"></i>
                         </div>
                         <div class="contact-right text-center">
-                            <h6 class="mx-3"> Calendar
-                                <p> DNB's :
+                            <h6 class="mx-3"> Calendar<br>
+                                <p title="Click 'Availability' to schedule time on my Calendar"><br> DNB's :
                                     <a href="https://getcloud.withgoogle.com/schedule/dionnenoella?ln=en"
                                         target="_blank"> Availability</a>
                                 </p>
@@ -777,8 +778,8 @@
                             <i class="fas fa-mobile-alt" title="Click # to call me"></i>
                         </div>
                         <div class="contact-right text-center">
-                            <h6 class="mx-3"> Google Voice
-                                <p>Phone :
+                            <h6 class="mx-3"> Google Voice<br>
+                                <p title="Click # to call me"><br>Phone :
                                     <a href="https://voice.google.com/u/0/calls?a=nc,%2B[650-810-1459]"
                                         target="blank">#</a>
                                 </p>
@@ -789,28 +790,28 @@
   
             </div>
   
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch justify-content-center">
+            <div class="contactform col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch justify-content-center">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="form-row">
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label for="name">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:3" data-msg="Please enter at least 3 chars for your name" pattern="[A-Za-z0-9]{3,}" required/>
                     <div class="validate"></div>
                   </div>
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label for="name">Your Email</label>
-                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter your valid email address" required />
                     <div class="validate"></div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
+                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:3" data-msg="Please enter at least 3 chars for the subject" pattern="[A-Za-z0-9]{3,}" required/>
+                  <div class="validate" ></div>
                 </div>
                 <div class="form-group">
                   <label for="name">Message</label>
-                  <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please type your message here" required></textarea>
                   <div class="validate"></div>
                 </div>
                 <div class="mb-3">
